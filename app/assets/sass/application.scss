@@ -83,4 +83,12 @@ ul {
     list-style-type: circle; 
 }
 
+.subsection__list {
+  list-style-type: disc;
+}
+
+ol.subsection__list {
+  list-style-type: decimal;
+}
+
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
