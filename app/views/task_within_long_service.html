@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="breadcrumbs">
+    <ol>
+      <li><a href="http://www.gov.uk">Parent topic</a></li>
+      <li><a href="">Child topic</a></li>
+      <li>Child topic</li>
+    </ol>
+  </div>
+
+  <div class="grid-row">
+
+    <div class="column-two-thirds">
+         <h2 class="heading-medium"> <a href="long_service_list">Part of long complex service name</a></h2>
+  		<h1 class="heading-xlarge">Task within long complex service</h1>
+
+  		<p>Introductory context about the task.</p>
+
+  	<div>
+		  <h2 class="blue-box">Task overview content page</h2>
+	  </div>
+
+		<div>
+    <h2 class="heading-medium">You must do these sub-tasks in this order:</h2>
+			<ol>
+		  	  <li><a href="">Linear sub-task</a></li>
+            <p>Introductory text about task</p>
+		 	    <li><a href="">Linear sub-task</a></li>
+            <p>Introductory text about task</p>
+		  	  <li><a href="">Linear sub-task</a></li>
+            <p>Introductory text about task</p>
+			</ol>  
+		</div>
+
+    <div>
+    <h2 class="heading-medium">You must do these sub-tasks:</h2>
+      <ul>
+          <li><a href="">Non-linear sub-task</a></li>
+            <p>Introductory text about task</p>
+          <li><a href="">Non-linear sub-task</a></li>
+            <p>Introductory text about task</p>
+          <li><a href="">Non-linear sub-task</a></li>
+            <p>Introductory text about task</p>
+      </ul>  
+    </div>
+
+	</div>
+
+
+    <div class="column-third">
+      <aside class="govuk-related-items" role="complementary">
+        <h2 class="heading-medium" id="subsection-title">Topic related links</h2>
+        <nav role="navigation" aria-labelledby="subsection-title">
+			<a href="#">Link to topic related service</a><br>
+            <a href="#">Link to topic related content</a><br>
+            <a href="#" class="bold-xsmall">More <span class="visuallyhidden">in Subsection</span</a>
+        </nav>
+      </aside>
+  	</div>
+  </div>
+  </span>
+
+</main>
+
+{% endblock %}
