@@ -1,63 +1,43 @@
 {% extends "layout.html" %}
 
 {% block page_title %}
-  GOV.UK prototype kit
+
 {% endblock %}
 
 {% block content %}
 
 <main id="content" role="main">
+
   <div class="grid-row">
+
     <div class="column-two-thirds">
+  		<h1 class="heading-xlarge">Index of service list pages</h1>
 
-      <h1 class="heading-xlarge">Long complex service</h1>
+  		<p>These are task lists and sub task lists that make up services.</p>
 
-      <p>
-        Introductory context about the service. These services are made up of many complex tasks, which makes them too big to contain on one page (unless we use accordions)
-      </p>
+		<div>
+    <h2 class="heading-medium">Types of service lists:</h2>
+			<ul>
+		  	  <li><a href="long_service_list">Long service list</a></li>
+		 	    <li><a href="task_within_long_service">Task within long service</a></li>
+		  	  <li><a href="short_service_list">Short service list</a></li>
+          <li><a href="multi_scheme_list">Multi scheme list</a></li>
+          <li><a href="learning_to_drive_short_service_list">Learning to drive short service list</a></li>
+          <li><a href="assessing_students_short_service_list">Assessing students short service list</a></li>
+          <li><a href="exporting_short_service_list">Exporting</a></li>
+          <li><a href="get_help_childcare_multi_scheme_list">Get help paying for childcare</a></li>
+          <li><a href="register_childminder_short_service_list">Register as a childminder (example with acordion)</a></li>
 
-      <p>
-        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
-      </p>
+			</ul>  
+		</div>
 
-      <h2 class="heading-medium">About this page</h2>
+	  </div>
 
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
-
-			<h2 class="heading-medium">Examples and documentation</h2>
-
-			<ul class="list list-bullet">
-				<li><a href="/examples">Example pages and patterns</a></li>
-				<li><a href="https://github.com/alphagov/govuk_prototype_kit/tree/master/docs">
-						Read the full documentation</a></li>
-			</ul>
-
-      <h2 class="heading-medium">Other resources</h2>
-
-			<ul class="list list-bullet">
-				<li>
-					<a href="http://govuk-elements.herokuapp.com/snippets/">
-						Guide to GOV.UK Elements
-					</a>
-				</li>
-				<li>
-					<a href="https://www.gov.uk/service-manual">
-						Service design manual
-					</a>
-				</li>
-				<li>
-					<a href="https://www.gov.uk/design-principles">
-						Government Digital Service Design Principles
-					</a>
-				</li>
-			</ul>
-
-    </div>
+    <div class="column-third">
+  	</div>
   </div>
+ </span>
+
 </main>
 
 {% endblock %}
-
-
